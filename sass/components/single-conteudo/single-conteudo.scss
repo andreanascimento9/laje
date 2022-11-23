@@ -1,0 +1,50 @@
+.single-thumbnail{
+    width: 100vw; 
+    height:15vw; 
+    background-repeat:no-repeat; 
+    background-size: cover;
+    background-color:black
+}
+
+
+.single-container{
+    background: #E5E5E5;
+    padding: 61px 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+
+    .container-post{
+        background: white;
+        color: black;
+        padding: 55px 65px;
+        margin-top: -132px;
+        max-width: 1062px;
+        width: 1062px;
+        border-radius: 5px;
+
+        .titulo-post{
+            font-weight: 700;
+            text-transform: uppercase;
+            
+        }
+
+        .info-post{
+            color: #FF00FF;
+            display: inline-flex;
+            gap: 30px;
+            font-weight: 700;
+            font-size: .9em;
+            margin-top: 15px;
+            margin-bottom: 35px;
+            .data, .nome-autor{
+                font-family: 'DIN-Black';
+            }
+        }
+    }
+
+    .container-mais-lidos{
+
+    }
+}

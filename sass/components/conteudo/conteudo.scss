@@ -1,0 +1,154 @@
+.in-conteudo{
+    background: #E5E5E5;
+    color: black;
+    .container-main{
+        .container-section{
+            flex-flow: wrap;
+            max-width: 1450px;
+            margin: 0 auto;
+
+            .container-news-right{
+                .tips-container-flex{
+                    margin-left: 10px;
+                }
+            }
+
+            .conteudo-cards-insight{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 63px 43px;
+                width: 100vw;
+                max-width: 1460px;
+        
+
+                .card-insight-last{
+                
+                    width: 324px;
+
+                    img{
+                        
+                    }
+                    .inner-card-insight{
+                        padding: 30px;
+                        background: white;
+                        color: black;
+                        height: 317px;
+                        margin-top: -10px;
+                        
+                    }
+                }
+                
+                .buttonToogle{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        
+    }
+}
+
+.autores{
+    padding: 140px 0;
+    .titulo-autores{
+        font-size: 2.25em;
+        text-transform: uppercase;
+        font-weight: 700;
+        max-width: 1420px;
+        margin: 0 auto;
+        padding-bottom: 45px;
+    }
+    .cards-autores{
+
+        display: flex;
+        gap: 40px;
+        width: 100vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .card-autor{
+            display: inline-flex;
+            gap: 20px;
+            
+            .col-esquerdo{
+                max-width: 285px;
+                .titulo-card{
+                    font-family: 'DIN-Black';
+                    font-size: 1.1em;
+                    font-weight: 900;
+                    text-transform: uppercase;
+
+                }
+                hr{
+                    height: 5px;
+                    width: 40px;
+                    background: #F162F9;
+                    color: #F162F9;
+                    margin:0;
+                    opacity: 1;
+                }
+                .autor{
+                    font-size: .75em;
+                    color: #F162F9;
+                    font-weight: 700;
+                    margin-top: 25px;
+                }
+            }
+
+            .col-direito{
+                .foto-autor{
+                    height: 150px;
+                    width: 150px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+
+    }
+}
+
+.especiais{
+    background-color: #E5E5E5;
+    padding: 100px 0 80px 0;
+    .titulo-especiais{
+        font-size: 2.25em;
+        text-transform: uppercase;
+        font-weight: 700;
+        max-width: 1420px;
+        margin: 0 auto;
+        padding-bottom: 45px;
+    }
+    .cards-especiais{
+        display: flex;
+        gap: 45px;
+        width: 100vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .card-especial{
+            max-width: 324px;
+            .imagem-card-especial{
+                max-height: 173px;
+            }
+            .inner-card-especial{
+                padding: 30px;
+                background: white;
+                .titulo-card-especial{
+                    font-family: 'DIN-Black';
+                    font-size: 1.2em;
+
+                }
+                .resumo-card-especial{
+                    font-size: 1em;
+                    
+                }
+            }
+        }
+    }
+}

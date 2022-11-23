@@ -1,0 +1,409 @@
+/*      INICIO MOBILE       */
+footer.site-footer {
+	z-index: 22;
+}
+
+footer.site-footer .converse {
+	padding: 60px 40px 0 40px;
+	display: block;
+}
+
+footer.site-footer .converse .titulo {
+	max-width: 161px;
+	text-transform: uppercase;
+	font-family: 'DIN-Condensed';
+	font-weight: 700;
+	font-size: 1.9em;
+	line-height: 30px;
+}
+
+footer.site-footer .converse .subtitulo {
+	text-transform: uppercase;
+	font-family: 'DIN-Condensed';
+	font-size: 1.2em;
+	font-weight: 700;
+	max-width: 185px;
+	line-height: 20px;
+	margin-top: 1.2em;
+}
+
+footer.site-footer .converse .descricao {
+	font-family: 'DIN-Medium';
+	font-size: .9em;
+	max-width: 292px;
+	margin-top: 1em;
+}
+
+footer.site-footer .converse .btn-pink {
+	min-width: 80vw;
+	text-align: center;
+	padding: 1.2em 0;
+	background: #FF00FF;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'DIN-Black';
+	margin-top: 15px;
+}
+
+footer.site-footer .converse .imagem {
+	margin-top: 22px;
+	text-align: center;
+}
+
+footer.site-footer .newsletter {
+	text-align: center;
+	background-color: #E4EDEA;
+	padding: 0px 40px 30px 40px;
+}
+
+footer.site-footer .newsletter .tip-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer.site-footer .newsletter .tip-flex .tip-col-left {
+	text-align: left;
+	max-width: 145px;
+	padding-top: 38px;
+}
+
+footer.site-footer .newsletter .tip-flex .tip-col-left .titulo {
+	font-weight: bold;
+	line-height: 30px;
+	color: black;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+footer.site-footer .newsletter .tip-flex .tip-col-left .subtitulo {
+	color: black;
+	line-height: 18px;
+	font-size: .8em;
+	font-family: 'DIN-Medium';
+	text-align: left;
+	margin-top: 15px;
+}
+
+footer.site-footer .newsletter .tip-flex .tip-col-right img {
+	position: absolute;
+	width: 185px;
+	transform: translate(-143px, 0px);
+}
+
+footer.site-footer .newsletter .formulario {
+	max-width: 370px;
+	margin-top: 60px;
+}
+
+footer.site-footer .newsletter .formulario .wpcf7 {
+	width: 370px;
+}
+
+footer.site-footer .newsletter .formulario .label-newsletter {
+	font-size: .7em;
+	font-weight: 600;
+	float: left;
+	transform: translateY(5px);
+}
+
+footer.site-footer .newsletter .formulario .input-newsletter {
+	background: white;
+	height: 50px;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	font-size: 0.7em;
+	width: 100%;
+	padding-left: 20px;
+	/*placeholder estilizei em base/elements/fields */
+}
+
+footer.site-footer .newsletter .formulario .span-newsletter {
+	font-size: .65em;
+	color: #707070;
+	text-align: center;
+}
+
+footer.site-footer .newsletter .formulario .span-newsletter a {
+	text-decoration: none;
+	color: #005DEA;
+}
+
+footer.site-footer .newsletter .formulario .submit-newsletter {
+	background: #F162F9;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .7em;
+}
+
+footer.site-footer .newsletter .formulario button {
+	background: #E4EDEA;
+	border: 0;
+}
+
+footer.site-footer .newsletter .texto-mutado {
+	color: #E5E5E5;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+footer.site-footer .newsletter .texto-mutado a {
+	color: #005DEA;
+	text-decoration: none;
+}
+
+footer.site-footer .info {
+	background: #000000;
+	color: white;
+	padding: 37px 0;
+}
+
+footer.site-footer .info .centralizar {
+	text-align: center;
+}
+
+footer.site-footer .info ul {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+	padding: 25px 0;
+	gap: 50px;
+}
+
+footer.site-footer .info ul li {
+	list-style: none;
+}
+
+footer.site-footer .info ul .texto-esquerdo img {
+	transform: translateY(20px);
+}
+
+footer.site-footer .info ul .texto-direito {
+	list-style: none;
+	line-height: 19px;
+	text-transform: capitalize;
+	text-align: left;
+	position: relative;
+	left: 5px;
+	font-size: .9em;
+	font-family: "DIN-Medium" !important;
+}
+
+footer.site-footer .creditos {
+	text-align: center;
+	color: black;
+	font-size: 11px;
+	padding: 18px 0;
+}
+
+/*      FIM MOBILE      */
+/*      inicio desk     */
+footer.footer-desk {
+	padding-top: 75px;
+}
+
+footer.footer-desk .converse {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	flex-wrap: wrap;
+	transform: translateX(-9em);
+}
+
+footer.footer-desk .converse .textos {
+	display: inline-flex;
+	gap: 50px;
+	align-items: stretch;
+	transform: translateY(65px);
+	margin-right: 142px;
+}
+
+footer.footer-desk .converse .textos .titulo-principal {
+	font-weight: 700;
+	color: black;
+	font-size: 4em;
+	line-height: 1em;
+	text-align: right;
+	max-width: 274px;
+}
+
+footer.footer-desk .converse .textos .textos-cta {
+	max-width: 267px;
+}
+
+footer.footer-desk .converse .textos .textos-cta .titulo {
+	font-size: 1.8em;
+	line-height: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+footer.footer-desk .converse .textos .textos-cta .descricao {
+	font-size: .9em;
+	margin: 20px 0;
+}
+
+footer.footer-desk .converse .textos .textos-cta .btn-pink {
+	background-color: #FF00FF;
+	color: white;
+	padding: 16px 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 10px;
+	font-size: .9em;
+	font-family: 'DIN-Black';
+}
+
+footer.footer-desk .converse .imagem {
+	margin-left: 142px;
+}
+
+footer.footer-desk .newsletter {
+	display: flex;
+	justify-content: center;
+	background: #E4EDEA;
+	padding: 80px 0 30px 0;
+}
+
+footer.footer-desk .newsletter .imagem {
+	transform: translateY(32px);
+	margin-right: 75px;
+}
+
+footer.footer-desk .newsletter .news {
+	display: flex;
+	margin-left: 75px;
+}
+
+footer.footer-desk .newsletter .news .textos {
+	max-width: 210px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+footer.footer-desk .newsletter .news .textos .titulo {
+	font-weight: 700;
+	font-size: 3em;
+	line-height: .9em;
+	text-transform: uppercase;
+}
+
+footer.footer-desk .newsletter .news .textos .descricao {
+	font-size: .9em;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+footer.footer-desk .newsletter .news .formulario {
+	max-width: 370px;
+}
+
+footer.footer-desk .newsletter .news .formulario .wpcf7 {
+	width: 370px;
+}
+
+footer.footer-desk .newsletter .news .formulario .label-newsletter {
+	font-size: .7em;
+	font-weight: 600;
+}
+
+footer.footer-desk .newsletter .news .formulario .input-newsletter {
+	background: white;
+	height: 50px;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	font-size: 0.7em;
+	width: 100%;
+	padding-left: 20px;
+	/*placeholder estilizei em base/elements/fields */
+}
+
+footer.footer-desk .newsletter .news .formulario .span-newsletter {
+	font-size: .65em;
+	color: #707070;
+	text-align: center;
+}
+
+footer.footer-desk .newsletter .news .formulario .span-newsletter a {
+	text-decoration: none;
+	color: #005DEA;
+}
+
+footer.footer-desk .newsletter .news .formulario .submit-newsletter {
+	background: #F162F9;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .7em;
+}
+
+footer.footer-desk .newsletter .news .formulario button {
+	background: #E4EDEA;
+	border: 0;
+}
+
+footer.footer-desk .footer-bg {
+	background: #000000;
+	color: white;
+	padding: 50px 155px;
+}
+
+@media screen and (max-width: 1300px) {
+	footer.footer-desk .footer-bg {
+		padding: 50px 70px;
+	}
+}
+
+footer.footer-desk .footer-bg .footer-inline {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+footer.footer-desk .footer-bg .footer-inline .ftips {
+	line-height: 1.2em;
+}
+
+footer.footer-desk .footer-bg .footer-inline .ftips .txt-strong {
+	font-weight: 900;
+	font-size: 0.9em;
+	font-family: 'DIN-Black';
+}
+
+footer.footer-desk .footer-bg .footer-inline .ftips a, footer.footer-desk .footer-bg .footer-inline .ftips .detalhes {
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+	font-family: 'DIN-Medium';
+}
+
+footer.footer-desk .footer-bg .footer-inline .col-contato {
+	margin-right: 60px;
+}
+
+footer.footer-desk .footer-bg .footer-inline .col-contato a {
+	color: white;
+}
+
+footer.footer-desk .footer-bg .footer-inline .col-direitos {
+	text-align: right;
+}
+
+footer.footer-desk .footer-bg .footer-inline .col-logo {
+	text-align: center;
+	transform: translateX(-100px);
+}
+
+/*# sourceMappingURL=footer.css.map */

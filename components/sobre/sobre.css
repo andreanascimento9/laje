@@ -1,0 +1,260 @@
+.main-sobre .center-mt--10 {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+section.banner-principal-sobre {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	gap: 90px;
+	background: #A00059;
+	padding: 109px 0;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+section.banner-principal-sobre .titulo-principal {
+	font-weight: 700;
+	color: white;
+	text-align: left;
+	max-width: 350px;
+	font-size: 4.3em;
+	line-height: 1em;
+}
+
+section.banner-principal-sobre .descricao {
+	font-family: 'DIN-Medium';
+	font-size: 1.1em;
+	color: white;
+	text-align: left;
+	line-height: 1em;
+	max-width: 323px;
+}
+
+.banner-secundario-sobre {
+	background: #2500AD;
+	padding: 250px 0 150px 0;
+	width: 100vw;
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-secundario-sobre .col-esquerdo {
+	margin-right: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+	.banner-secundario-sobre .col-esquerdo {
+		margin-right: 0;
+	}
+}
+
+.banner-secundario-sobre .titulo-principal {
+	max-width: 350px;
+	font-size: 4.3em;
+	line-height: 1em;
+	font-weight: 700;
+	color: white;
+	text-align: left;
+}
+
+.banner-secundario-sobre .descricao {
+	max-width: 400px;
+	font-family: 'DIN-Medium';
+	font-size: 1.1em;
+	color: white;
+	text-align: left;
+	line-height: 1em;
+}
+
+.proposta-sobre {
+	padding: 82px 0;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	gap: 63px;
+	flex-wrap: wrap;
+}
+
+.proposta-sobre .col-esquerdo {
+	max-width: 390px;
+}
+
+.proposta-sobre .col-esquerdo .titulo-principal {
+	font-size: 4.3em;
+	line-height: 1em;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.proposta-sobre .col-esquerdo .mb-50 {
+	margin-bottom: 50px;
+}
+
+.proposta-sobre .col-esquerdo .subtitulo {
+	font-size: 2.25em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.proposta-sobre .col-esquerdo .descricao {
+	font-family: 'DIN-Medium';
+	font-size: 1em;
+	text-align: left;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+.ideal-sobre {
+	background: #F1F6F4;
+	padding: 91px 0;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	gap: 93px;
+	flex-wrap: wrap;
+}
+
+.ideal-sobre .col-direito {
+	max-width: 363px;
+}
+
+.ideal-sobre .col-direito .titulo-principal {
+	font-size: 4.3em;
+	line-height: 1em;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.ideal-sobre .col-direito .descricao {
+	font-family: 'DIN-Medium';
+	font-size: 1em;
+	text-align: left;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+.ideal-sobre .col-esquerdo {
+	max-width: 918px;
+}
+
+.ecossistema-sobre {
+	padding-top: 158px;
+}
+
+.ecossistema-sobre .inline-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 460px;
+}
+
+.ecossistema-sobre .inline-flex .col-direito {
+	text-align: left;
+	font-weight: 700;
+	line-height: 1em;
+	font-size: 2.25em;
+	max-width: 329px;
+	text-transform: uppercase;
+}
+
+.ecossistema-sobre .inline-flex .col-esquerdo {
+	text-align: right;
+	font-weight: 700;
+	line-height: 1em;
+	font-size: 4.3em;
+	max-width: 350px;
+	text-transform: uppercase;
+}
+
+.ecossistema-sobre .inline-flex .col-esquerdo .btn-transparent {
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-transform: uppercase;
+	padding: 0px 40px;
+	max-height: 50px;
+	margin-top: 40px;
+	font-size: 16px;
+	font-family: 'DIN-Black';
+	line-height: 3em;
+}
+
+.ecossistema-sobre .container-img {
+	padding: 0 154px;
+	/* text-align: center; */
+	display: flex;
+	justify-content: center;
+	margin-top: -9em;
+	margin-bottom: -2em;
+	transform: translateX(29px);
+}
+
+.ecossistema-sobre .inline-flex-custom {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 63px;
+	margin-top: 43px;
+	margin-bottom: 150px;
+}
+
+.ecossistema-sobre .inline-flex-custom .numero {
+	font-size: 8.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.ecossistema-sobre .inline-flex-custom .texto {
+	font-size: 3em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.ecossistema-sobre .inline-flex-custom .col-esquerdo {
+	display: inline-flex;
+	gap: 20px;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.ecossistema-sobre .inline-flex-custom .col-esquerdo .texto {
+	max-width: 556px;
+}
+
+.ecossistema-sobre .inline-flex-custom .col-direito {
+	display: inline-flex;
+	gap: 20px;
+	flex-wrap: nowrap;
+	align-items: baseline;
+}
+
+.clientes-sobre {
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.clientes-sobre .clientes {
+	display: flex;
+	gap: 20px 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 1018px;
+	margin: 0 auto;
+}
+
+/*# sourceMappingURL=sobre.css.map */

@@ -1,0 +1,549 @@
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: .7em;
+    font-weight: normal;
+    display: block;
+    position: absolute;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.banner-home{
+    padding: 125px 165px;
+    @media screen and(max-width:767px) {
+        
+        padding: 125px 35px;
+        
+    }
+    .tips-container-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: wrap;
+        @media screen and(max-width:767px){
+                flex-flow: nowrap;
+        }
+        
+        .col-esquerda{
+            max-width: 315px;
+            @media screen and(max-width:767px) {
+                max-width: 199px;
+            }
+            .banner-main-title{
+                font-size: 4em;
+                line-height: 1em;
+                font-weight: bold;
+                font-family: 'DIN-Condensed';
+                @media screen and(max-width:767px) {
+                    font-size: 2.5em;
+                }
+               
+            }
+            p{
+                font-size: 1em;
+                line-height: 1.5em;
+                margin-top: 15px;
+                margin-bottom: 53px;
+                @media screen and(max-width:767px) {
+                    font-size: 1em;
+                }
+            }
+            .btn-pink{
+                font-weight: bold;
+                background: #FF00FF;
+                padding: 1em 2em;
+                color: white;
+                text-decoration: none;
+                border-radius: 3px;
+                @media screen and(max-width:767px){
+                    position: absolute;
+                    width: 80vw;
+                    text-align: center;
+                }
+                
+            }
+            
+
+
+        }
+        .col-centro {
+            .desk-block{
+                display: block;
+                @media screen and(max-width:767px){
+                    display: none;
+                }
+            }
+
+            .mobile-block{
+                display: none;
+                @media screen and(max-width:767px) {
+                    display: block;
+                    position: absolute;
+                    transform: translate(-119px, -227px);
+                }
+            }
+        }
+        .col-direita{
+            width: 320px;
+            max-width: 320px;
+            @media screen and(max-width:767px) {
+                display: none;
+            }
+
+            
+        }
+    }
+    
+}
+
+
+
+
+h1{
+    margin: 0;
+}
+.dentro-grid{
+    padding: 0 154px;
+}
+.barra{
+    transform: translateY(-15em);
+}
+.center-mt--10{
+    text-align: center;
+    margin-top: -10px;
+    @media screen and(max-width:767px) {
+        display: none;
+    }
+}
+
+
+
+.home-info-section{
+
+    .info-home{
+        @media screen and(max-width:767px) {
+            display: none;
+        }
+        .imagem-desk{
+            max-width: 1410px;
+            
+        }
+
+        
+        .textos-icone.tips-container-flex-custom{
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-flow: nowrap;
+            margin-top: -28em;
+            margin-bottom: 10em;
+            text-align: left;
+            gap: 285px;
+            @media screen and (max-width:1500px){
+                padding: 0 100px;
+            }
+
+            .col-flex{
+                max-width: 242px;
+                .titulo-info{
+                    font-weight: 700;
+                    font-size: 3.1em;
+                    line-height: 1.2em;
+                    text-transform: uppercase;
+                    color: #000000;
+                    font-family: 'DIN-Condensed';
+                }
+
+                .descricao-info{
+                    font-family: 'DIN-Medium';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+
+                    color: #000000;
+                }
+            }
+            .col-flex:last-child{
+                max-width: 300px;
+                transform: translateX(45px);
+            }
+        }
+
+    }
+    .info-home-mobile{
+        display: none;
+        padding: 40px;
+        @media screen and(max-width:767px){
+            display: block;
+        }
+        .titulo-info{
+            font-family: 'DIN-Condensed';
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.8em;
+        }
+        .descricao-info{
+            line-height: 18.35px;
+            margin-top: 15px;
+        }
+       
+    }
+    .infos.tips-container-flex-custom{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+
+        @media screen and (max-width: 1330px){
+            padding: 0;
+        }
+
+        .col-flex{
+            font-weight: 700;
+            font-size: 130px;
+            line-height: 156px;
+            color: #000000;
+            white-space: nowrap;
+            margin-right: 62px;
+            margin-left: 62px;
+            img{
+                transform: translateY(-30px);
+            }
+        }
+        .col-flex:last-child{
+            img{
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
+
+
+.cursos{
+    padding-top: 155px;
+    padding-bottom: 135px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    gap: 40px;
+    @media screen and(max-width: 1230px) {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 100px;
+    }
+    @media screen and(max-width:767px){
+        padding: 20px;
+    }
+    .box-curso{
+        max-width: 400px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        
+
+        .inner-box-curso{
+          
+            padding: 28px 40px 60px 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            background: white;
+            .descricao-curso{
+                font-size: 0.9em;
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            .preco{
+                /*esta no html o tamanho da fonte*/
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 54px;
+
+                .parcelamento{
+                    /*esta no html o tamanho da fonte*/
+                }
+                
+            }
+            
+            .texto-mutado{
+                color: #818181;
+                margin-top: -10px;
+                margin-bottom: 40px;
+                font-size: 1.1em;
+
+            }
+
+            .btn-pink{
+                background: #FF00FF;
+                border-radius: 3px;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin-top: 20px;
+                text-align: center;
+                padding: 20px 0;
+                font-weight: bold;
+                width: 100%;
+                font-family: 'DIN-Black';
+                font-size: .9em;
+                
+                
+            }
+
+        }
+    }
+}
+
+
+.facilitadores{
+    background: #E4EDEA;
+    padding:100px 0;
+   
+
+    .titulo-facilitadores{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 22px;
+        padding-bottom: 50px;
+        max-width: 1400px;
+        margin: 0 auto;
+        @media screen and(max-width:767px){
+            padding:0 35px;
+        }
+        
+    }
+    .scroll-cards::-webkit-scrollbar { 
+        display: none;
+    }
+    .scroll-cards{
+        width: 100vw;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        overflow-x: scroll;
+        margin-top: 25px;
+        @media screen and(max-width:767px){
+            display: -webkit-inline-box;
+            padding:0 35px;
+        }
+
+        
+        
+        .facilitadores-card{
+            /*margin-right:32px;*/
+            cursor: pointer;
+            
+            .imagem-perfil{
+                border-radius: 5px;
+                filter: drop-shadow(0px 1px 15px rgba(0, 0, 0, 0.1));
+            }
+            .inline-flex{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .textos{
+                    margin-top: 20px;
+                    font-family: 'DIN-Condensed';
+                    .nome{
+                        font-size: 1.75em;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                    }
+                    .cargo{
+                        font-size: 1.25em;
+                        font-weight: 700;
+                        margin-top: -7px;
+                    }
+                }
+
+                .imagem{
+                    transform: translateY(10px)
+                }
+            }
+           
+        }
+    }
+}
+
+
+.insight-news{
+    background-color: black;
+    color: white;
+    padding: 175px 0px 200px 0px;
+
+    .container-main{
+        .container-section{
+            width: 100vw;
+            display: flex;
+            flex: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            .container-news-left{
+    
+               
+        
+                .tips-container-flex{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-flow: nowrap;
+                    align-items: center;
+                    
+                    .titulo-insight-news{
+                        font-weight: 700;
+                        font-size: 36px;
+                        text-transform: uppercase;
+                    }
+                    .ver-tudo{
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        img{
+                            margin-left: 10px;
+                            transform: translateY(10px);
+                        }
+                    }
+                }
+            
+                .cards-insight-news{
+                    
+                    .first-cards-insight{
+                        margin-bottom: 40px;
+                        .card-insight-first{
+                            display: flex;
+                            /*align-items: center;
+                            justify-content: space-between;
+                            flex-flow: wrap;*/
+                            flex-wrap: wrap;
+                            max-width: 1063px;
+                            cursor: pointer;
+            
+                            .col{
+                                height: 350px;
+                            }
+                            
+                
+                            .col:last-child{
+                                    color: #000000;     
+                                    padding: 0 42px;
+                                    background: white;
+                                    max-width: 372px;
+                            
+                                    
+                    
+                            }
+                        }
+            
+                    }
+                    
+            
+                    .last-cards-insight{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 42px;
+                
+                        .card-insight-last{
+                        
+                            width: 324px;
+            
+                            img{
+                                
+                            }
+                            .inner-card-insight{
+                                padding: 30px;
+                                background: white;
+                                color: black;
+                                height: 317px;
+                                margin-top: -10px;
+                                
+                            }
+                        }
+                    }
+            
+                   
+                }
+        
+            }
+        
+            .container-news-right{
+                
+                width: 314px;
+                max-width: 314px;
+                
+                .tips-container-flex{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-flow: nowrap;
+                    align-items: center;
+                    
+                    .autores-insight-news{
+                        font-weight: 700;
+                        font-size: 36px;
+                        text-transform: uppercase;
+                    }
+                    .ver-tudo{
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        img{
+                            margin-left: 10px;
+                            transform: translateY(10px);
+                        }
+                    }
+                }
+        
+                .container{
+                    display: inline-flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    
+                    .col-esquerdo{
+                        max-width: 160px;
+                        margin-right: 15px;
+                        .titulo-post{
+                            font-weight: 900;
+                            font-size: 18px;
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                            text-transform: uppercase;
+            
+                        }
+                       
+                        .autor{
+                            color: #FF00FF;
+                            font-size: 12;
+                            border-top: 5px solid #FF00FF;
+                            max-width: 40px;
+                            white-space: nowrap;
+                            flex-wrap: nowrap;
+                        }
+                    }
+                    .col-direito{
+                        .foto-autor{
+                            height: 150px;
+                            width: 150px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    
+
+   
+    
+    
+}

@@ -1,0 +1,15 @@
+
+// stylelint-disable value-keyword-case
+$font__main: 'DIN-Condensed', 'Arial', serif;
+
+p{
+    font-family: 'DIN-Medium';
+}
+//, -apple-system, BlinkMacSystemFont,Roboto, Oxygen-Sans, Ubuntu, Cantarell
+//, "Helvetica Neue", sans-serif
+
+// stylelint-enable value-keyword-case
+$font__code: "DIN Condensed", consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;

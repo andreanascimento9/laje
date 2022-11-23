@@ -1,0 +1,9 @@
+/node_modules
+/vendor
+package-lock.json
+composer.lock
+style.css.map
+.DS_Store
+woocommerce.css
+woocommerce.css.map
+woothemes-sensei.php

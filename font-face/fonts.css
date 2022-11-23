@@ -1,0 +1,25 @@
+
+@font-face {
+	font-family: 'DIN-Condensed';
+	src: url('./DIN-Condensed/DINCond-Regular.ttf') format('truetype');
+	
+}
+
+@font-face {
+	font-family: 'DIN-Condensed-Bold';
+	src: url('./DIN-Condensed/DINCondensed-Bold.ttf') format('truetype');
+	
+}
+
+@font-face {
+	font-family: 'DIN-Medium';
+	src: url('./DIN/DINPro-Regular.ttf') format('truetype');
+	
+}
+
+@font-face {
+	font-family: 'DIN-Black';
+	src: url('./DIN/DINPro-Black.ttf') format('truetype'),
+	url('./DIN/DINPro-Black.otf') format('opentype');
+	
+}

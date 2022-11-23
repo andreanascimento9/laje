@@ -1,0 +1,259 @@
+.cursos-sobre {
+	background-color: #F1F6F4;
+	padding: 87px 0;
+}
+
+.mt-3 {
+	margin-top: 3em;
+}
+
+.calendario-cursos {
+	padding: 130px 0;
+}
+
+.calendario-cursos .titulo-secao {
+	color: black;
+	font-size: 2.25em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 48px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.calendario-cursos .container-section {
+	display: inline-flex;
+	gap: 120px;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom:first-child {
+	border-top: 0;
+	padding-bottom: 20px;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom {
+	display: inline-flex;
+	gap: 77px;
+	padding: 40px 0;
+	border-top: 1px solid #EEEEEE;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo {
+	display: inline-flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .lancamento {
+	color: #2500B3;
+	font-weight: 700;
+	line-height: 2.8em;
+	text-transform: uppercase;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .lancamento .dia-lancamento {
+	font-size: 3.75em;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .lancamento .mes-lancamento {
+	font-size: 2.25em;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .sobre-curso {
+	max-width: 296px;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .sobre-curso .titulo {
+	font-family: 'DIN-Black';
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-esquerdo .sobre-curso .resumo {
+	font-size: 1em;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-direito {
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #2500B3;
+	max-width: 300px;
+	width: 300px;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-direito img {
+	transform: translateY(-7px);
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-direito .carga-horaria {
+	color: black;
+}
+
+.calendario-cursos .container-section .cursos-custom .box-curso-custom .col-direito .btn-pink {
+	width: 100%;
+	background: #FF00FF;
+	color: white;
+	padding: 11px 0;
+	font-size: .7em;
+	text-transform: uppercase;
+	font-family: 'DIN-Black';
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.avaliacao-alunos .inline-flex {
+	display: flex;
+	width: 100vw;
+	flex-direction: row;
+	justify-content: center;
+	align-items: unset;
+	flex-wrap: wrap;
+}
+
+.avaliacao-alunos .inline-flex .boxes {
+	display: flex;
+	transform: translate(3em, 8em);
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box {
+	max-width: 350px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .foto {
+	text-align: center;
+	margin-bottom: -5.5em;
+	transform: translateY(-7em);
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .titulo {
+	font-size: 1.75em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .subtitulo {
+	font-size: .8em;
+	font-weight: 700;
+	margin-top: -8px;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .descricao {
+	font-size: .9em;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .descricao p {
+	color: black;
+	font-weight: 600;
+}
+
+.avaliacao-alunos .inline-flex .boxes .box .aspas {
+	text-align: right;
+}
+
+.avaliacao-alunos .inline-flex-2 {
+	display: inline-flex;
+	gap: 155px;
+	justify-content: center;
+	width: 100vw;
+	flex-wrap: wrap;
+}
+
+.avaliacao-alunos .inline-flex-2 .line-flex {
+	display: inline-flex;
+	gap: 10px;
+	align-items: flex-end;
+}
+
+.avaliacao-alunos .inline-flex-2 .line-flex .numero {
+	font-size: 8.1em;
+	font-weight: 700;
+}
+
+.avaliacao-alunos .inline-flex-2 .line-flex .texto {
+	font-size: 3em;
+	line-height: 48px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.perguntas-frequentes {
+	margin-top: 152px;
+	margin-bottom: 200px;
+}
+
+.perguntas-frequentes .titulo {
+	margin: 0 auto;
+	max-width: 1275px;
+	padding-bottom: 50px;
+	font-size: 2.25em;
+	font-weight: 700;
+}
+
+.perguntas-frequentes .accordion__item {
+	margin: 0px auto;
+	border-bottom: 1px solid #C4C4C4;
+	max-width: 1275px;
+}
+
+.perguntas-frequentes .accordion__item .accordion__title {
+	position: relative;
+	display: block;
+	padding: 14px 0;
+	margin-bottom: 2px;
+	color: black;
+	font-size: .9em;
+	font-weight: 600;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+
+.perguntas-frequentes .accordion__item .accordion__title .accordion__arrow {
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 5px;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.perguntas-frequentes .accordion__item .accordion__title:hover {
+	transition: all 0.5s ease-out;
+}
+
+.perguntas-frequentes .accordion__item .accordion__rotate {
+	transform: rotate(180deg);
+}
+
+.perguntas-frequentes .accordion__item .accordion__content {
+	padding: 20px 0;
+	margin-bottom: 2px;
+	font-size: 0.9em;
+	display: none;
+	color: #707070;
+}
+
+.perguntas-frequentes .accordion__item .accordion__arrow-item {
+	font-weight: 700;
+}
+
+/*# sourceMappingURL=cursos.css.map */

@@ -1,0 +1,413 @@
+/*      INICIO MOBILE       */
+footer.site-footer{
+    z-index: 22;
+    .converse{
+       padding: 60px 40px 0 40px;
+       display: block;
+       
+       .titulo{
+            max-width: 161px;
+            text-transform: uppercase;
+            font-family: 'DIN-Condensed';
+            font-weight: 700;
+            font-size: 1.9em;
+            line-height: 30px;
+       }
+
+       .subtitulo{
+            text-transform: uppercase;
+            font-family: 'DIN-Condensed';
+            font-size: 1.2em;
+            font-weight: 700;
+            max-width: 185px;
+            line-height: 20px;
+            margin-top: 1.2em;
+       }
+
+       .descricao{
+            font-family: 'DIN-Medium';
+            font-size: .9em;
+            max-width: 292px;
+            margin-top: 1em;
+            
+       }
+       
+       .btn-pink{
+            min-width: 80vw;
+            text-align: center;
+            padding: 1.2em 0;
+            background: #FF00FF;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'DIN-Black';
+            margin-top: 15px;
+
+       }
+
+       .imagem{
+           margin-top: 22px;
+            text-align: center;
+       }
+    }
+
+    .newsletter{
+
+        text-align: center;
+        background-color: #E4EDEA;
+        padding: 0px 40px 30px 40px;
+
+        .tip-flex{
+            display: flex;
+            justify-content: space-between;
+
+            .tip-col-left{
+                text-align: left;
+                max-width: 145px;
+                padding-top: 38px;
+                .titulo{
+                    font-weight: bold;
+                    line-height: 30px;
+                    color: black;
+                    font-size: 1.8em;
+                    text-transform: uppercase;
+                    text-align: left; 
+        
+                }
+        
+                .subtitulo{
+                    color: black;
+                    line-height: 18px;
+                    font-size: .8em;
+                    font-family: 'DIN-Medium';
+                    text-align: left;
+                    margin-top: 15px;
+
+                }
+            }
+
+            .tip-col-right{
+                img{
+                    position: absolute;
+                    width: 185px;
+                    transform: translate(-143px, 0px);
+                }
+            }
+        }
+
+        .formulario{
+            max-width: 370px;
+            margin-top: 60px;
+            .wpcf7{
+                width: 370px;
+            }
+            .label-newsletter{
+                font-size: .7em;
+                font-weight: 600;
+                float: left;
+                transform: translateY(5px);
+            }
+            .input-newsletter {
+                background: white;
+                height: 50px;
+                box-shadow: 0px 1px 8px rgba(0,0,0, 0.1);
+                border-radius: 3px;
+                font-size: 0.7em;
+                width: 100%;
+                padding-left: 20px;
+                /*placeholder estilizei em base/elements/fields */
+            }
+            .span-newsletter{
+                font-size: .65em;
+                color: #707070;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: #005DEA;
+                    
+                }
+
+            }
+            .submit-newsletter{
+                background: #F162F9;
+                width: 100%;
+                padding: 16px 0;
+                border-radius: 3px;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: .7em;
+               
+
+            }
+            button{
+                background: #E4EDEA;
+                border: 0;
+            }
+        }
+
+        
+
+        .texto-mutado{
+
+            color: #E5E5E5;
+            font-size: 12px;
+            line-height: 16px;
+
+            a{
+                color: #005DEA;
+                text-decoration: none;
+            }
+
+        }
+
+    }
+
+    .info{
+        background: #000000;
+        color: white;
+        padding: 37px 0;
+
+        .centralizar{
+            text-align: center;
+        }
+
+        ul {
+
+            display: flex;
+            justify-content: center;
+            margin:0 auto;
+            padding: 0;
+            padding: 25px 0;
+            gap: 50px;
+
+            li{
+                list-style: none;
+            }
+
+            .texto-esquerdo{
+                img{
+                    transform: translateY(20px);
+                }
+                
+            }
+
+            .texto-direito{
+                list-style: none;
+                line-height: 19px;
+                text-transform: capitalize;
+                text-align: left;
+                position: relative;
+                left: 5px;
+                font-size: .9em;
+                font-family: 'DIN-Medium'!important;
+                
+                
+            }
+        }
+
+    }
+
+    .creditos{
+        text-align: center;
+        color: black;
+        font-size: 11px;
+        padding: 18px 0;
+    }
+
+}
+/*      FIM MOBILE      */
+
+
+/*      inicio desk     */
+footer.footer-desk{
+    padding-top: 75px;
+
+    .converse{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        flex-wrap: wrap;
+        transform: translateX(-9em);
+
+        .textos{
+            display: inline-flex;
+            gap: 50px;
+            align-items: stretch;
+            transform: translateY(65px);
+            margin-right: 142px;
+            .titulo-principal{
+                font-weight: 700;
+                color: black;
+                font-size: 4em;
+                line-height: 1em;
+                text-align: right;
+                max-width: 274px;
+            } 
+        
+
+            .textos-cta{
+                max-width: 267px;
+                .titulo{
+                    font-size: 1.8em;
+                        line-height: 1em;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                }
+                
+                .descricao{
+                    font-size: .9em;
+                    margin: 20px 0;
+                    
+                }
+                .btn-pink{
+                    background-color: #FF00FF;
+                    color: white;
+                    padding: 16px 0;
+                    width: 100%;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-decoration: none;
+                    margin-top: 10px;
+                    font-size: .9em;
+                    font-family: 'DIN-Black';
+                    
+                }
+            }
+
+        }
+
+        .imagem{
+            margin-left: 142px;
+        }
+    }
+
+    .newsletter{
+        display: flex;
+        justify-content: center;
+        background: #E4EDEA;
+        padding: 80px 0 30px 0;
+
+        .imagem{
+            transform: translateY(32px);
+            margin-right: 75px;
+            
+        }
+        .news{
+            display: flex;
+            margin-left: 75px;
+            .textos{
+                max-width: 210px;
+                text-align: right;
+                margin-right: 50px;
+                .titulo{
+                    font-weight: 700;
+                    font-size: 3em;
+                    line-height: .9em;
+                    text-transform: uppercase;
+                    
+                }
+                .descricao{
+                    font-size: .9em;
+                    margin-top: 15px;
+                    margin-left: 60px;
+                }
+            }
+            .formulario{
+                max-width: 370px;
+                .wpcf7{
+                    width: 370px;
+                }
+                .label-newsletter{
+                    font-size: .7em;
+                    font-weight: 600;
+                }
+                .input-newsletter {
+                    background: white;
+                    height: 50px;
+                    box-shadow: 0px 1px 8px rgba(0,0,0, 0.1);
+                    border-radius: 3px;
+                    font-size: 0.7em;
+                    width: 100%;
+                    padding-left: 20px;
+                    /*placeholder estilizei em base/elements/fields */
+                }
+                .span-newsletter{
+                    font-size: .65em;
+                    color: #707070;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        color: #005DEA;
+                        
+                    }
+
+                }
+                .submit-newsletter{
+                    background: #F162F9;
+                    width: 100%;
+                    padding: 16px 0;
+                    border-radius: 3px;
+                    color: white;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: .7em;
+                   
+
+                }
+                button{
+                    background: #E4EDEA;
+                    border: 0;
+                }
+            }
+        }
+    }
+
+    .footer-bg{
+        background: #000000;
+        color: white;
+        padding: 50px 155px;
+
+        @media screen and (max-width:1300px) {
+            padding: 50px 70px;
+            
+        }
+    
+        .footer-inline{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .ftips{
+                line-height: 1.2em;
+                .txt-strong{
+                    font-weight: 900;
+                    font-size: 0.9em;
+                    font-family: 'DIN-Black';
+                }
+                a, .detalhes{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 0.9em;
+                    font-family: 'DIN-Medium';
+                }
+            }
+        
+
+            .col-contato{
+                margin-right: 60px;
+                a{
+                    color: white;
+                }
+            }
+            .col-direitos{
+                text-align: right;
+            }
+            .col-logo{
+                text-align: center;
+                transform: translateX(-100px);
+            }
+        }
+    }
+}
+
